@@ -73,6 +73,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 - Creact react app
 - configured tailwind css
+- Header
+- Login Form
 
 # features
 
@@ -91,5 +93,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   - MovieList \* N
 
 - NetflixGPT
-    -Search bar
-    -Movie suggestions
+  -Search bar
+  -Movie suggestions
