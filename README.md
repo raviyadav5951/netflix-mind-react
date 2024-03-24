@@ -75,6 +75,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - configured tailwind css
 - Header
 - Login Form
+- Routing
+- Form validation
 
 # features
 
