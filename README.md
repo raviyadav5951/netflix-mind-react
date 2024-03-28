@@ -77,6 +77,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Login Form
 - Routing
 - Form validation
+- useRef
+- Firebase Setup
 
 # features
 
