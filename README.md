@@ -79,6 +79,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Form validation
 - useRef
 - Firebase Setup
+- Deployment to Prod firebase
+- Create signup and login page
+- Implemented firebase login, signup, updateProfile and signout api
+- Created redux store with userSlice
 
 # features
 
