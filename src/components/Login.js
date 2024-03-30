@@ -30,8 +30,7 @@ const Login = () => {
   const handleSubmitButton = () => {
     //validate the form
     // checkValidEmailAndPassword(email,password)
-    console.log(emailRef.current.value);
-    console.log(passRef.current.value);
+   
 
     let message = null;
     if (isSignInForm) {

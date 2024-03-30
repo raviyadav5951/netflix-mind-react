@@ -14,7 +14,6 @@ export const checkValidEmailAndPassword = (email, password) => {
 };
 
 export const checkValidSignUpForm = (name, email, password) => {
-  console.log("name==", name);
   const isEmailValid =
     /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()\.,;\s@\"]+\.{0,1})+([^<>()\.,;:\s@\"]{2,}|[\d\.]+))$/.test(
       email

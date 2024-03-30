@@ -11,7 +11,7 @@ const Header = () => {
   const dispatch = useDispatch();
 
   const userFromStore = useSelector((store) => store.user);
-  console.log("userFromStore", userFromStore);
+  // console.log("userFromStore", userFromStore);
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
@@ -31,7 +31,7 @@ const Header = () => {
       } else {
         // User is signed out
         // ...
-        console.log("remove user from dispatch called");
+        //("remove user from dispatch called");
         dispatch(removeUser());
         navigate("/");
       }
@@ -52,7 +52,7 @@ const Header = () => {
       })
       .catch((error) => {
         // An error happened.
-        console.log("error in signout", error);
+       // console.log("error in signout", error);
         navigate("/error");
       });
   };

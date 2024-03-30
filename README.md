@@ -85,7 +85,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Created redux store with userSlice
 - Bugfix: If user is not logged in then restrict redirect to browse page
 - Bugfix: If user is logged in and try to go back to login then redirect again to browse page
-- unsubscribe onAuthStateChanged when component unounts
+- unsubscribe onAuthStateChanged when component unmounts
+- Get api key from tmdb api
+- Created VideoTitle, VideoBackground
 
 # features
 
