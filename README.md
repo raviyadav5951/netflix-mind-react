@@ -88,6 +88,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - unsubscribe onAuthStateChanged when component unmounts
 - Get api key from tmdb api
 - Created VideoTitle, VideoBackground
+- Secondary container for movie list and created custom hooks
 
 # features
 
