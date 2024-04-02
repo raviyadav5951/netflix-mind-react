@@ -89,6 +89,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Get api key from tmdb api
 - Created VideoTitle, VideoBackground
 - Secondary container for movie list and created custom hooks
+- GPT Search api call
+- Fetched GPT movie suggestion from tmdb
+- Displayed the results of movies from TMDB using MOvieList component
+- Memoization
+- Added .env files
+- Responsive using md and sm tailwind
+
 
 # features
 

@@ -30,7 +30,6 @@ const Login = () => {
   const handleSubmitButton = () => {
     //validate the form
     // checkValidEmailAndPassword(email,password)
-   
 
     let message = null;
     if (isSignInForm) {
@@ -112,14 +111,14 @@ const Login = () => {
     <div>
       <Header />
       <div className="absolute">
-        <img alt="bgimage" src={BG_URL} />
+        <img className="h-screen object-cover" src={BG_URL} alt="logo" />
       </div>
 
       <form
         onSubmit={(e) => {
           e.preventDefault();
         }}
-        className="w-3/12 absolute p-12 bg-black my-36 mx-auto right-0 left-0 text-white bg-opacity-80"
+        className="w-full md:w-3/12 absolute p-12 bg-black my-36 md:mx-auto right-0 left-0 text-white bg-opacity-80"
       >
         <h1 className="px-2 py-2 text-3xl text-white">
           {isSignInForm ? "Sign In" : "Sign Up"}
