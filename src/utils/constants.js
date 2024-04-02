@@ -12,12 +12,11 @@ export const USER_AVATAR =
 //   },
 // };
 
-export const API_OPTIONS =  {
-  method: 'GET',
+export const API_OPTIONS = {
+  method: "GET",
   headers: {
-    accept: 'application/json',
-    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1NGNlYjM5OTU4NWUyYWM3MmNkN2U3MThmYzZhOWMxNCIsInN1YiI6IjVhODZiMDViOTI1MTQxMGExZjAzNDZlNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.EDv5upI3KIYrynTh36YZI5f8gm_IFMpvpxzlbGvBt04'
-  }
+    Authorization: "Bearer " + process.env.REACT_APP_TMDB_KEY,
+  },
 };
 
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
@@ -31,4 +30,4 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "spanish", name: "Spanish" },
 ];
 
-// export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
+export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
