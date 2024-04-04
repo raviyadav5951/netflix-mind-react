@@ -57,7 +57,7 @@ const Login = () => {
         .then((userCredential) => {
           // Signed up
           const user = userCredential.user;
-          console.log("created user:", user);
+          //console.log("created user:", user);
 
           updateProfile(user, {
             displayName: nameRef.current.value,
@@ -97,7 +97,7 @@ const Login = () => {
         .then((userCredential) => {
           // Signed in
           const signedInUser = userCredential.user;
-          console.log("logged in user", signedInUser);
+          //("logged in user", signedInUser);
         })
         .catch((error) => {
           const errorCode = error.code;
@@ -111,7 +111,7 @@ const Login = () => {
     <div>
       <Header />
       <div className="absolute">
-        <img className="h-screen object-cover" src={BG_URL} alt="logo" />
+        <img className="object-cover" src={BG_URL} alt="logo" />
       </div>
 
       <form
